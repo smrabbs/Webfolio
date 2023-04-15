@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Syed Md Rabbani | Webfolio</title>
+  <meta name="description" content="Wowfolio - A Simple & Clean Portfolio Template For Developers" />
+</head>
+
+<body>
+  
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="assets/profile.jpg"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">Syed Md Rabbani</h4>
+    </div>
+
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <button class="btn btn-theme btn-sm">
+      <a target="_blank" href="assets/Rabbani(CV).pdf">
+        Download CV
+      </a>
+    </button>
+    
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <!-- <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div> -->
+  <!---->
+
+
+
+  <!-------------------- About ------------->
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello 👋</span>
+          <span class="heading-primary__main">
+            I'm Syed Md Rabbani!<br> I'm a Front-End Developer from Bangalore, India.
+          </span>
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme">
+          <a href="./index.html#projects">
+            Projects
+          </a>
+        </button>
+        <button class="btn btn-inv home-hero__btn-theme">
+          <a href="./index.html#contact">
+            Contact
+          </a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About 🦄</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills in programming
+      </h2>
+
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                A highly motivated and skilled frontend developer fresher seeking a challenging role in the web development industry to utilize my skills in creating visually stunning and interactive web applications.
+              </span>
+              <span>
+                My educational background includes a degree in Bachelor of Business Administration from Bangalore University and I have completed 2 years of Advanced 3D Animation and Visual Effects Certification from Arena Animation. Furthermore, I have taken a Udemy course on Front-End Development.
+              </span>
+            </p>
+            <button class="btn btn-theme about__btn-theme">
+              <a href="./index.html#projects">
+                Projects
+              </a>
+            </button>
+          </div>
+
+            <!-------------------- Skills ------------->
+
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">bootstrap</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">GitHub</li>
+              <li class="about__skill">vscode</li>
+              <!-- <li class="about__skill">react</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+      <!-- <li class="skills-showcase__list-item">
+        <i class="devicon-react-original"></i>
+      </li> -->
+      <!-- <li class="skills-showcase__list-item">
+        <i class="devicon-sass-original"></i>
+      </li> -->
+      <!-- <li class="skills-showcase__list-item">
+        <i class="devicon-nodejs-plain"></i>
+      </li> -->
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain"></i>
+      </li>
+
+      <li class="skills-showcase__list-item">
+        <i class="devicon-github-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-bootstrap-plain"></i>
+      </li>
+    </ul>
+  </section>
+
+    <!-------------------- Projects ------------->
+
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Here you will find some of the personal projects that I created with the related skills.
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/tin-dog.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Tin-Dog Responsive Website
+              </h3>
+              <hr class="projects__title-text-divider" />
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  You are invited to take a look at my first open-source responsive site, created using HTML and CSS languages, putting a focus on mobile-first design and ensuring a seamless user journey.
+                </span>     
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                <a target="_blank" href="https://smrabbs.github.io/TinDog-Responsive-Website/">
+                  Live Link
+                </a>
+              </button>
+              <button type="button" class="btn btn-inv projects__btn-inv">
+                <a target="_blank" href="https://github.com/smrabbs/TinDog-Responsive-Website">
+                  Source Code
+                </a>
+              </button>
+            </div>
+          </div>
+
+
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/spotify-cover.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Spotify Clone Website
+              </h3>
+              <hr class="projects__title-text-divider" />
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Developed a Spotify clone website using HTML, CSS, and JavaScript, providing the user with an intuitive and easy-to-use interface, enabling dynamic playlists, and implementing audio streaming functionality.
+                </span>
+                </p>
+              <button class="btn btn-theme projects__btn-theme">
+                <a target="_blank" href="https://smrabbs.github.io/Spotify-Clone/">
+                  Live Link
+                </a>
+              </button>
+              <button class="btn btn-inv projects__btn-inv">
+                <a target="_blank" href="https://github.com/smrabbs/Spotify-Clone">
+                  Source Code
+                </a>
+              </button>
+            </div>
+          </div>
+
+
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/calculator.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Calculator
+              </h3>
+              <hr class="projects__title-text-divider" />
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Utilized HTML, CSS, and JavaScript to create a calculator that could quickly calculate the results of any mathematical equation, making efficient calculations and providing a user-friendly interface.
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                <a target="_blank" href="https://smrabbs.github.io/Calculator/">
+                  Live Link
+                </a>
+              </button>
+              <button class="btn btn-inv projects__btn-inv">
+                <a target="_blank" href="https://github.com/smrabbs/Calculator">
+                  Source Code
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-------------------- Contact ------------->
+
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact 📞</span>
+        <span class="heading-secondary__main">
+          Feel free to Contact me by clicking the Button Below.
+        </span>
+      </h2>
+
+      <div class="main-section__content contactbtn">
+        
+        <!-- <div class="contact__form-cont">
+          <form class="contact__form">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Name</label>
+              <input placeholder="Enter Your Name" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Email</label>
+              <input placeholder="Enter Your Email" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Message</label>
+              <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10"
+                class="contact__form-field-input"></textarea>
+            </div>
+          </form>
+          <div class="contact__form-visual"></div>
+        </div> -->
+
+        <button type="submit" class="btn btn-inv home-hero__btn-theme">
+          <a
+          rel="noreferrer"
+          target="_blank"
+          class="cta-btn cta-btn--resume"
+          href="mailto:smrabbani42@gmail.com"
+          >Connect with Me</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-------------------- Footer ------------->
+
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+
+        <div class="main-footer__mid-line"></div>
+
+        <div class="main-footer__socials">
+          <a  href="https://github.com/smrabbs" class="main-footer__social-link" target="_blank">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>     
+          <a href="http://www.linkedin.com/in/syed-mohammed-rabbani" class="main-footer__social-link" target="_blank">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+         </div>
+      </div>
+    </div>
+
+
+
+  <!-------------------- Credit ------------->
+
+
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
+          <a target="_blank" href="https://github.com/rammcodes/wowfolio">WowFolio</a> Open-Source Template
+          <script>document.write(new Date().getFullYear())</script>. Made by
+          <a target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
